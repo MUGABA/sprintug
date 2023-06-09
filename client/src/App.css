@@ -1,0 +1,233 @@
+.App1 {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header1 {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.formContainer {
+  width:500px;
+  margin: 40px auto;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #9A2585;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=file] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.footer {
+  text-align: center;
+  padding: 5px;
+}
+
+button {
+  background-color: #9A2585;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+
+button:hover {
+  opacity: 0.8;
+}
+
+.rest-card{
+  width: 100%;
+}
+
+.rest-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 1% 5%;
+}
+
+.image{
+  width: 80%;
+  height: 60%;
+  margin: 0 auto;
+}
+
+.image img{
+  display: block;
+  width: 90%;
+  height: 100%;
+  margin: 0px auto;
+  padding: 15px;
+}
+
+.rest {
+  width: 350px;
+  padding: 10px;
+  height: 400px;
+  margin: 5px;
+  background-color: #fff;
+  border: 1px solid  #9A2585;
+  border-radius: 5px;
+
+}
+
+
+@media screen and (max-width: 992px) {
+  .rest-container {
+    flex: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .rest {
+    flex-direction: column;
+  }
+}
+
+
+.rest-details{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  width: inherit;
+  gap: 5px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons
+
+
+.delete-button{
+  display: flex;
+  width: 60px;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.edit-button{
+  display: flex;
+  width: 60px;
+  justify-content: flex-start;
+  margin-right: auto;
+  margin-right: 0;
+}
+
+.res-details{
+  display: flex;
+  width: 80%;
+  margin: 10px auto;
+  background-color: #fff;
+}
+
+.image-part{
+  width: 40%;
+  margin: 1rem;
+}
+.image-part img{
+  display: block;
+  width: 90%;
+  margin: .05rem auto;
+}
+.details-part{
+  width: 60%;
+  margin: auto .05rem;
+}
+
+.detail{
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+}
+
+.detail .label{
+  font-size: 15px;
+  font-weight: bold;
+  padding: .015rem;
+  margin: .5rem 1rem;
+  width: 100px;
+}
+
+.detail .value{
+  padding: .015rem;
+  margin: .5rem 1rem;
+}
+
+
+.navBar{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 1rem;
+  background-color: #9A2585;
+  padding: 1rem;
+  color: #fff;
+  border-radius: 5px;
+}
+
+a {
+  color: white;
+  padding: .5rem;
+  list-style: none;
+  text-decoration: none;
+}
+
+.info span {
+  padding: 1rem;
+  text-transform: uppercase;
+}
+
+.footer a{
+  color: #9A2585;
+}
+
+
+.restaurantContainer{
+  width: 80vw;
+  margin: 10px auto;
+}
